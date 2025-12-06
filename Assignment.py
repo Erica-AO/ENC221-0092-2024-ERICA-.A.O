@@ -5,44 +5,47 @@
 
 
 class roommate:
-    def __init__ (self,height,size,complexion,hairstyle):
+    def __init__ (self,height,age,name,hobby,favouritefood):
         self.height=height
-        self.size=size
-        self.complexion=complexion
-        self.hairstyle=hairstyle
+        self.age=age
+        self.name=name
+        self.hobby=hobby
+        self.favouritefood=favouritefood
 
 
 # In[16]:
 
 
-Anyango=roommate(height="5.1ft",size="slim",complexion="chocolate",hairstyle="afro")
+Myroommate=roommate(height="5.1ft",age=20,name="Erica",hobby="reading",favouritefood="chicken")
 
 
 # In[20]:
 
 
-Anyango.height
+Myroommate.height
 
 
 # In[22]:
 
 
-Anyango.size
+Myroommate.name
 
 
 # In[24]:
 
-
-Anyango.complexion
+Myroommate.age
 
 
 # In[26]:
 
 
-Anyango.hairstyle
+Myroomate.hobby
 
 
 # In[ ]:
+
+Myroomate.favouritefood
+
 
 
 
